@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SendIt | Register</title>
+    <!-- bootstrap-css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap-icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <!-- customized-css  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- page header -->
+    <header class="clearfix">
+      <div class="logo">
+        <a href="index.html">
+          <h1 class="logo-text">
+            <i><span>Send</span>-iT</i>
+          </h1>
+        </a>
+      </div>
+      <div class="bi bi-bars bi bi-reorder menu-toggle"></div>
+
+      <nav>
+        <ul class="">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./category/about.html">About</a></li>
+          <li><a href="./category/services.html">Services</a></li>
+          <li><a href="signup.html">SignUp</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- sign page wrapper  || left sidebar    -->
+    <div class="form-signup-wrapper">
+
+        <!-- about the company  -->
+        <div class="intro-content">
+
+          <!-- title  -->
+          <h1>Send It</h1>
+
+          <!-- brief notes || paragraphs  -->
+          <div class="intro-content-paragraph">
+            <p>
+              We are the best and trusted shipping company <br />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+              Sapiente eum ut magni accusamus maiores nesciunt. Reprehenderit
+              <br />
+              sit repellat voluptas quaerat ad facere, tenetur, dolores undebr
+            </p>
+            <p>
+              We are the best and trusted shipping company <br />
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+              Sapiente eum ut magni accusamus maiores nesciunt. Reprehenderit
+            </p>
+            <p>
+                Thanks for visiting our page <br>
+                See you soon !!!! <br> 
+                ... <a href="#">ReadMore</a>
+            </p>
+          </div>
+
+          <!-- Contact us buttons  -->
+          <div class="button-group">
+            <input type="button" class="btn btn-warning" value="Book Now" />
+            <input type="button" class="btn btn-success" value="Contact Us" />
+          </div>
+        </div>
+
+      <!-- form-content || right sidebar  -->
+      <div class="form">
+        <!-- sign up form  -->
+        <form action="signup.html" method="post">
+          <h2>REGISTER</h2>
+          <p>I already have an account? <a href="login.html">Log In</a></p>
+
+          <div class="input-group">
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="Full Name"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="username"
+              name="username"
+              id="username"
+              placeholder="username"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="date"
+              name="date"
+              id="date"
+              placeholder="date"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              class="form-control"
+            />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              name="conf-password"
+              id="conf-password"
+              placeholder="Confirm Password"
+              class="form-control"
+            />
+          </div>
+          <br>
+          <div class="input-group">
+            <button type="submit" class="btn btn-warning">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
